@@ -10,12 +10,17 @@ try:
 except ImportError:
     from distutils.core import setup
 
-if sys.argv[-1] == 'publish':
-    os.system('python setup.py sdist upload')
-    sys.exit()
 
 readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
+
+requirements = [
+    # TODO: put package requirements here
+]
+
+test_requirements = [
+    # TODO: put package test requirements here
+]
 
 setup(
     name='{{ cookiecutter.repo_name }}',
@@ -28,10 +33,10 @@ setup(
     packages=[
         '{{ cookiecutter.repo_name }}',
     ],
-    package_dir={'{{ cookiecutter.repo_name }}': '{{ cookiecutter.repo_name }}'},
+    package_dir={'{{ cookiecutter.repo_name }}':
+                 '{{ cookiecutter.repo_name }}'},
     include_package_data=True,
-    install_requires=[
-    ],
+    install_requires=requirements,
     license="BSD",
     zip_safe=False,
     keywords='{{ cookiecutter.repo_name }}',
@@ -47,4 +52,5 @@ setup(
         'Programming Language :: Python :: 3.3',
     ],
     test_suite='tests',
+    tests_require=test_requirements
 )
