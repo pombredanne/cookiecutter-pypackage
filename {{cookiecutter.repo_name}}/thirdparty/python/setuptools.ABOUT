@@ -1,0 +1,11 @@
+about_resource: setuptools-11.3.1-py2.py3-none-any.whl
+name: setuptools
+version: 11.3.1
+
+download_url: https://pypi.python.org/packages/3.4/s/setuptools/setuptools-11.3.1-py2.py3-none-any.whl#md5=59cd761f2f2b926313bed7f83337e4d7
+
+home_url: https://pypi.python.org/pypi/setuptools
+owner: Python Packaging Authority
+
+dje_license: psf
+license_text_file: PSF.LICENSE

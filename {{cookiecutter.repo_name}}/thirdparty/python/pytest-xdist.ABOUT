@@ -1,0 +1,12 @@
+about_resource: pytest_xdist-1.10-py2-none-any.whl
+version: 1.10
+download_url: https://pypi.python.org/packages/source/p/pytest-xdist/pytest-xdist-1.10.tar.gz#md5=9bb894aa76d5871f74eac793f59e15a9
+
+name: pytest-xdist
+description: py.test xdist plugin for distributed testing and loop-on-failing modes
+home_url: http://bitbucket.org/hpk42/pytest-xdist
+owner: holger krekel and contributors
+contact: pytest-dev@python.org,holger@merlinux.eu
+dje_license: mit
+copyright: holger krekel and contributors
+license_text_file: pytest-xdist.LICENSE

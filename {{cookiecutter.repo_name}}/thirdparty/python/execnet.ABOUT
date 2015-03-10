@@ -1,0 +1,12 @@
+about_resource:execnet-1.2.0-py2-none-any.whl
+download_url: https://pypi.python.org/packages/source/e/execnet/execnet-1.2.0.tar.gz#md5=1886d12726b912fc2fd05dfccd7e6432
+version: 1.2.0
+
+name: execnet
+description: execnet: rapid multi-Python deployment
+home_url: http://codespeak.net/execnet
+owner: holger krekel and others
+contact: holger at merlinux.eu
+dje_license: mit
+license_text_file: execnet.LICENSE
+copyright: Copyright Holger Krekel and others, 2004-2014
