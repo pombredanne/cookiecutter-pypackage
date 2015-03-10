@@ -2,8 +2,10 @@
 Contributing
 ============
 
-Contributions are welcome, and they are greatly appreciated! Every
-little bit helps, and credit will always be given.
+Contributions are welcome and they are really appreciated!
+Every little bit helps, and credit will always be given.
+
+When doing contributions, you agree to the `Developer Certificate of Origin <http://developercertificate.org/>`.
 
 Bug reports
 ===========
@@ -29,8 +31,8 @@ The best way to send feedback is to file an issue at https://github.com/{{ cooki
 If you are proposing a feature:
 
 * Explain in detail how it would work.
-* Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions are welcome :)
+* Keep the scope as narrow as possible to make it easier to implement.
+* Remember that your contributions are welcomed to implement this feature!
 
 Development
 ===========
@@ -52,18 +54,18 @@ To set up `{{ cookiecutter.repo_name }}` for local development:
 
     tox
 
-5. Commit your changes and push your branch to GitHub::
+5. Commit your changes and push your branch to your GitHub fork::
 
     git add .
     git commit -m "Your detailed description of your changes."
     git push origin name-of-your-bugfix-or-feature
 
-6. Submit a pull request through the GitHub website.
+6. Submit a pull request through the GitHub website for this branch.
 
 Pull Request Guidelines
 -----------------------
 
-If you need some code review or feedback while you're developing the code just make the pull request.
+If you need some code review or feedback while you're developing the code just create a pull request.
 
 For merging, you should:
 
@@ -72,11 +74,11 @@ For merging, you should:
 3. Add a note to ``CHANGELOG.rst`` about the changes.
 4. Add yourself to ``AUTHORS.rst``.
 
-.. [1] If you don't have all the necessary python versions available locally you can rely on Travis - it will 
+.. [1] If you do not have all the supported python versions installed locally you can rely on Travis and Appveyor.
+       They will 
        `run the tests <https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/pull_requests>`_ for each change you add in the pull request.
-       
-       It will be slower though ...
-       
+
+
 Tips
 ----
 

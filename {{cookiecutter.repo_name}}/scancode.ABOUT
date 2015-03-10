@@ -1,0 +1,23 @@
+about_resource: .
+
+name: ScanCode
+version: 0.1.0
+
+owner: nexB Inc.
+
+home_url: http://scancode.io
+
+vcs_tool: git
+vcs_repository: https://github.com/scancode/scancode.git
+
+description: ScanCode is a tool to detect the provenance of software code.
+
+license: apache-2.0 and CC0-1.0 and scancode-generated-attribution
+license_file:
+    - apache-2.0.LICENSE
+    - cc0-1.0.LICENSE
+
+notice_file: NOTICE
+
+copyright: Copyright (c) 2015 nexB Inc. and others
+

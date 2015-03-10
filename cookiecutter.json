@@ -1,17 +1,17 @@
 {
-    "full_name": "Ionel Cristian Maries",
-    "email": "contact@ionelmc.ro",
-    "website": "http://blog.ionelmc.ro",
-    "github_username": "ionelmc",
-    "project_name": "Nameless",
-    "repo_name": "python-nameless",
-    "package_name": "nameless",
-    "distribution_name": "nameless",
+    "full_name": "ScanCode",
+    "email": "info@scancode.io",
+    "website": "http://scancode.io",
+    "github_username": "scancode",
+    "project_name": "ScanCode",
+    "repo_name": "scancode-scancode",
+    "package_name": "scancode",
+    "distribution_name": "scancode-scancode",
     "project_short_description": "An example package. Replace this with a proper project description. Generated with https://github.com/ionelmc/cookiecutter-pylibrary",
-    "release_date": "2014-06-10",
-    "year": "2014",
+    "release_date": "2015-03-01",
+    "year": "2015",
     "version": "0.1.0",
     "c_extension_support": "no",
     "c_extension_optional": "yes",
-    "test_matrix_configurator": "yes"
+    "test_matrix_configurator": "no"
 }
